@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-
 const express = require("express");
 const bodyparser = require("body-parser");
 const helmet = require("helmet");
@@ -28,6 +27,7 @@ function read(file) {
     );
   });
 }
+
 
 module.exports = function application(
   ENV,
